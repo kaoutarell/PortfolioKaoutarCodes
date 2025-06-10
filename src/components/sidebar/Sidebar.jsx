@@ -1,49 +1,109 @@
+"use client";
 import React from "react";
 import "./sidebar.css";
+
+//addon : for smooth scrolling
+import { Link } from "react-scroll";
 
 const Sidebar = () => {
   return (
     <aside className="aside">
-      <a href="#home" className="nav__logo">
+      <Link href="#home" className="nav__logo">
         <img src="/assets/logo.svg" alt="" />
-      </a>
+      </Link>
       <nav className="nav">
         <div className="nav__menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#home" className="nav__link">
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={900}
+                href="#home"
+                className="nav__link"
+              >
                 <i className="icon-home"></i>
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#about" className="nav__link">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={900}
+                href="#about"
+                className="nav__link"
+              >
                 <i className="icon-user-following"></i>
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#services" className="nav__link">
+              <Link
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={900}
+                href="#services"
+                className="nav__link"
+              >
                 <i className="icon-briefcase"></i>
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#resume" className="nav__link">
+              <Link
+                to="resume"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={900}
+                href="#resume"
+                className="nav__link"
+              >
                 <i className="icon-graduation"></i>
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#portfolio" className="nav__link">
+              <Link
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={900}
+                href="#portfolio"
+                className="nav__link"
+              >
                 <i className="icon-layers"></i>
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#blog" className="nav__link">
+              <Link
+                to="blog"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={900}
+                href="#blog"
+                className="nav__link"
+              >
                 <i className="icon-note"></i>
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#contact" className="nav__link">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={900}
+                href="#contact"
+                className="nav__link"
+              >
                 <i className="icon-bubble"></i>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
