@@ -3,6 +3,15 @@
   column-gap: 1.875rem;
 }
 
+.temporary_message {
+  grid-column: 1 / -1; /* spans all 3 columns */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 200px;
+}
+
 .blog__card {
   box-shadow: var(--shadow);
   border-radius: var(--border-radius);

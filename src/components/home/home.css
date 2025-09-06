@@ -7,19 +7,67 @@
 }
 
 .intro {
-  max-width: 540px;
+  max-width: 800px;
   text-align: center;
   z-index: 1;
 }
 
 .home__img {
   margin-bottom: 1.5rem;
+  width: 170px;
 }
 
 .home__name {
   font-size: var(--h1-font-size);
   font-weight: var(--font-bold);
   margin-bottom: 0.5rem;
+}
+
+.highlights {
+  font-weight: 700;
+  background: linear-gradient(90deg, #330173, #6c0fae);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlights_2 {
+  font-weight: 700;
+  background: linear-gradient(90deg, hsl(353, 100%, 65%), hsl(353, 93%, 72%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+}
+
+.highlighted {
+  font-weight: 600;
+  position: relative;
+  color: var(--title-color);
+  padding: 0 0.2em;
+  z-index: 1;
+}
+
+.highlighted::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-180deg);
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(120deg, #ffde21, #ffee8c);
+  border-radius: 4px;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.home__education {
+  display: block; /* makes span act like a paragraph */
+  width: 100%; /* takes all available width */
+  text-align: center; /* ensures text is centered */
+  /* font-size: clamp(0.9rem, 2.5vw, 1rem); */
+  font-size: var(--small-font-size);
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
 .home__socials {

@@ -6,8 +6,10 @@ const AboutBox = () => {
       <div className="about__box">
         <i className="about__icon icon-fire"></i>
         <div>
-          <h3 className="about__title">+999</h3>
-          <span className="about__subtitles">Leet Code Challenge Done</span>
+          <h3 className="about__title">+100</h3>
+          <span className="about__subtitles">
+            Leet Code Challenges/Exercises
+          </span>
         </div>
       </div>
 
@@ -20,17 +22,17 @@ const AboutBox = () => {
       </div>
 
       <div className="about__box">
-        <i className="about__icon icon-badge"></i>
+        <i className="about__icon icon-briefcase"></i>
         <div>
           <h3 className="about__title">3</h3>
-          <span className="about__subtitles">Satisfied clients</span>
+          <span className="about__subtitles">Internships</span>
         </div>
       </div>
 
       <div className="about__box">
         <i className="about__icon icon-pin"></i>
         <div>
-          <h3 className="about__title">10</h3>
+          <h3 className="about__title">+10</h3>
           <span className="about__subtitles">Projects</span>
         </div>
       </div>

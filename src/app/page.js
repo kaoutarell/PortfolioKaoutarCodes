@@ -16,13 +16,13 @@ export default function Page() {
       <main className="main">
         <Home />
         <About />
-        <Services />
+        {/* <Services /> */}
         <Resume />
         <Portfolio />
         <Pricing />
         <Testimonials />
         <Blog />
-        <Contact />
+        {/* <Contact /> */}
       </main>
     </>
   );

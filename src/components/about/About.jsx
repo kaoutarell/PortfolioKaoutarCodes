@@ -8,22 +8,25 @@ const About = () => {
       <h2 className="section__title">About Me</h2>
 
       <div className="about__container grid">
-        <img src="/assets/avatar-2.svg" alt="" className="about__img" />
+        <img src="/assets/avatar_coding.png" alt="" className="about__img" />
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">
-              Euh, this is me.. im going to describe myself very quickly...
+            <p className="about__description ">
+              🛠️ These are basically the things I know how to do… but I’m
+              currently tanking 5 heavy school classes while running a kinda
+              full-time job in the background so consider this my
+              “multithreading” aura. ⚡
             </p>
-            <a href="" className="btn">
-              Download CV
+            <a href="/kaoutars_resume.pdf" download className="btn">
+              Download Resume <i className="icon-cloud-download"></i>
             </a>
           </div>
 
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
+                <h3 className="skills__name">Software Development</h3>
                 <span className="skills__number">90%</span>
               </div>
               <div className="skills__bar">
@@ -33,8 +36,8 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI/UX Design</h3>
-                <span className="skills__number">90%</span>
+                <h3 className="skills__name">Software Design</h3>
+                <span className="skills__number">95%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage ui__design"></span>
@@ -44,10 +47,20 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Cloud Computing</h3>
-                <span className="skills__number">70%</span>
+                <span className="skills__number">80%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage cloudcomp"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">System Security</h3>
+                <span className="skills__number">70%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage systemsecurity"></span>
               </div>
             </div>
           </div>

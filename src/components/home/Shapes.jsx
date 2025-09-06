@@ -3,7 +3,7 @@ import React from "react";
 const Shapes = () => {
   return (
     <div className="shapes">
-      <svg
+      {/* <svg
         width="27"
         height="29"
         class="shape s1"
@@ -14,7 +14,7 @@ const Shapes = () => {
           fill="#FFD15C"
           fill-rule="evenodd"
         />
-      </svg>
+      </svg> */}
 
       <svg
         width="26"
@@ -44,7 +44,7 @@ const Shapes = () => {
         />
       </svg>
 
-      <svg
+      {/* <svg
         width="15"
         height="23"
         class="shape s4"
@@ -59,9 +59,9 @@ const Shapes = () => {
           fill="#FFD15C"
           fill-rule="evenodd"
         />
-      </svg>
+      </svg> */}
 
-      <svg
+      {/* <svg
         width="15"
         height="23"
         class="shape s5"
@@ -76,8 +76,8 @@ const Shapes = () => {
           fill="#6C6CE5"
           fill-rule="evenodd"
         />
-      </svg>
-
+      </svg> */}
+      {/* 
       <svg
         width="49"
         height="17"
@@ -103,7 +103,7 @@ const Shapes = () => {
           fill="none"
           fill-rule="evenodd"
         />
-      </svg>
+      </svg> */}
 
       <svg
         width="19"
@@ -121,7 +121,7 @@ const Shapes = () => {
           fill-rule="evenodd"
         />
       </svg>
-
+      {/* 
       <svg
         width="30"
         height="25"
@@ -133,7 +133,7 @@ const Shapes = () => {
           fill="#6C6CE5"
           fill-rule="evenodd"
         />
-      </svg>
+      </svg>*/}
 
       <svg
         width="47"

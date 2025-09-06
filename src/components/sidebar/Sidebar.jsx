@@ -40,7 +40,7 @@ const Sidebar = () => {
                 <i className="icon-user-following"></i>
               </Link>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <Link
                 to="services"
                 spy={true}
@@ -52,7 +52,7 @@ const Sidebar = () => {
               >
                 <i className="icon-briefcase"></i>
               </Link>
-            </li>
+            </li> */}
             <li className="nav__item">
               <Link
                 to="resume"
@@ -92,7 +92,7 @@ const Sidebar = () => {
                 <i className="icon-note"></i>
               </Link>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <Link
                 to="contact"
                 spy={true}
@@ -104,7 +104,7 @@ const Sidebar = () => {
               >
                 <i className="icon-bubble"></i>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
