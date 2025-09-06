@@ -1,6 +1,15 @@
 .resume__container {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 1.875rem;
+  gap: 1.875rem;
+  align-items: start;
+}
+
+/* Stack Education + Certifications vertically */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
 }
 
 .timeline {
@@ -9,6 +18,9 @@
   border-radius: var(--border-radius);
   position: relative;
   box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .timeline__item {
@@ -31,8 +43,17 @@
   top: 0;
 }
 
+/* Timeline header */
+.timeline__header {
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 .timeline .icon-graduation,
-.timeline .icon-briefcase {
+.timeline .icon-briefcase,
+.timeline .icon-badge {
   position: absolute;
   left: -0.4375rem;
   top: 0;
