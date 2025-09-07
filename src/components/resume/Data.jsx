@@ -31,7 +31,7 @@ const Data = [
     category: "experience",
     icon: "icon-briefcase",
     year: "June.2019 - July.2019",
-    title: "Front-End Developer",
+    title: "Front-End Developer Intern",
     subtitle: "Sponteous, HEC Montréal",
     desc: "Technically my second internship. Honestly, not too much, I coded a map component for a travel agency so that users could see their chosen destinations connected on a single integrated map 🗺️📍",
   },
