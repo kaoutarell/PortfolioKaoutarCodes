@@ -24,10 +24,11 @@
   overflow: hidden;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
+  height: 300px;
 }
 
 .work__mask {
-  background: #6c6ce5;
+  background: linear-gradient(90deg, hsl(353, 100%, 65%), hsl(353, 93%, 72%));
   position: absolute;
   left: 0;
   top: 0;
@@ -43,7 +44,7 @@
 
 .work__category {
   color: #fff;
-  background-color: var(--first-color);
+  background-color: #000;
   border-bottom-left-radius: 0.98rem;
   border-bottom-right-radius: 0.98rem;
   position: absolute;
@@ -75,7 +76,7 @@
   left: 1.5rem;
   font-size: var(--h3-font-size);
   display: block;
-  background-color: #ffd15c;
+  background-color: #000;
   height: 40px;
   width: 40px;
   cursor: pointer;

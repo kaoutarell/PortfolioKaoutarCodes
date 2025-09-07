@@ -15,28 +15,28 @@ const Portfolio = () => {
 
   return (
     <section className="work container section" id="portfolio">
-      <h2 className="section__title">Recent Works</h2>
+      <h2 className="section__title">Recent Work</h2>
       <div className="work__filters">
         <span className="work__item" onClick={() => setItems(Menu)}>
           Everything
         </span>
-        <span className="work__item" onClick={() => filterItem("Creative")}>
-          Creative
+        <span className="work__item" onClick={() => filterItem("School")}>
+          School
         </span>
-        <span className="work__item" onClick={() => filterItem("Art")}>
-          Art
+        <span className="work__item" onClick={() => filterItem("Personal")}>
+          Personal
         </span>
-        <span className="work__item" onClick={() => filterItem("Design")}>
-          Design
+        <span className="work__item" onClick={() => filterItem("Hackathons")}>
+          Hackathons
         </span>
-        <span className="work__item" onClick={() => filterItem("Branding")}>
-          Branding
+        <span className="work__item" onClick={() => filterItem("Clients")}>
+          Clients
         </span>
       </div>
 
       <div className="work__container grid">
         {items.map((element) => {
-          const { id, image, title, category } = element;
+          const { id, image, title, category, link } = element;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -45,7 +45,7 @@ const Portfolio = () => {
               </div>
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
+              <a href={link} className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </a>
             </div>
