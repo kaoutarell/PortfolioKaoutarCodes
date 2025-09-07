@@ -40,19 +40,6 @@ const Sidebar = () => {
                 <i className="icon-user-following"></i>
               </Link>
             </li>
-            {/* <li className="nav__item">
-              <Link
-                to="services"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={900}
-                href="#services"
-                className="nav__link"
-              >
-                <i className="icon-briefcase"></i>
-              </Link>
-            </li> */}
             <li className="nav__item">
               <Link
                 to="resume"
@@ -92,19 +79,6 @@ const Sidebar = () => {
                 <i className="icon-note"></i>
               </Link>
             </li>
-            {/* <li className="nav__item">
-              <Link
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={900}
-                href="#contact"
-                className="nav__link"
-              >
-                <i className="icon-bubble"></i>
-              </Link>
-            </li> */}
           </ul>
         </div>
       </nav>

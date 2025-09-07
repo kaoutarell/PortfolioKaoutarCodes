@@ -2,7 +2,6 @@ import React from "react";
 import "./home.css";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
-import Shapes from "./Shapes";
 
 const Home = () => {
   return (
@@ -10,14 +9,14 @@ const Home = () => {
       <div className="intro">
         <img src="/assets/my_avatar.png" alt="" className="home__img" />
         <h1 className="home__name">Hi there 👋🏻</h1>
-        <span className="home__education ">
-          I’m Kaoutar, a final-year software engineering student (almost
+        <span className="home__education">
+          I'm Kaoutar, a final-year software engineering student (almost
           graduating 🎓, fingers crossed 🤞🏻)
         </span>
         <p className="home__education">
           Ambitious? <span className="highlighted">Definitely!</span> Passionate
           about tech? <span className="highlighted">Always.</span> Inspiring
-          women in STEM? <span className="highlighted">That’s my jam</span>.
+          women in STEM? <span className="highlighted">That's my jam</span>.
         </p>
         <p className="home__education">
           I attend conferences and summits whenever my calendar and bank account{" "}
@@ -28,12 +27,11 @@ const Home = () => {
         </p>
         <p className="home__education">
           I also <span className="highlights_2">love meeting new people</span>{" "}
-          and expanding my network 🌝 so if you’ve made it this far, let’s
+          and expanding my network 🌝 so if you've made it this far, let's
           connect!
         </p>
         <HeaderSocials />
         <ScrollDown />
-        <Shapes />
       </div>
     </section>
   );

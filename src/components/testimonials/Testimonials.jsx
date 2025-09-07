@@ -28,7 +28,7 @@ const Data = [
 const Testimonials = () => {
   return (
     <section className="testimonials container section" id="testimonials">
-      <h2 className="section__title">Clients, Collabs & Reviews</h2>
+      <h2 className="section__title">Facts</h2>
       <Swiper
         className="testimonials__container grid"
         // swiper modules

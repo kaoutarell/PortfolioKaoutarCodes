@@ -19,7 +19,7 @@ export default function Page() {
         {/* <Services /> */}
         <Resume />
         <Portfolio />
-        <Pricing />
+        {/* <Pricing /> */}
         <Testimonials />
         <Blog />
         {/* <Contact /> */}
