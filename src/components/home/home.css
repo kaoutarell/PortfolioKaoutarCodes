@@ -254,7 +254,8 @@
   }
 
   .scroll__down {
-    bottom: 1rem;
+    /* bottom: 1rem; */
+    display: none;
   }
 
   .home__scroll-name {
@@ -275,7 +276,8 @@
   }
 
   .scroll__down {
-    bottom: 0.5rem;
+    /* bottom: 0.5rem; */
+    display: none;
   }
 
   .home__scroll-name {
