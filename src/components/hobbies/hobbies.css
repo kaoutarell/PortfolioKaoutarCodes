@@ -1,0 +1,110 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__track {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1080px;
+}
+
+/* ✅ Slide animations */
+.animate-next {
+  animation: slideNext 0.5s ease;
+}
+.animate-prev {
+  animation: slidePrev 0.5s ease;
+}
+
+@keyframes slideNext {
+  from {
+    transform: translateX(60px);
+    opacity: 0.6;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slidePrev {
+  from {
+    transform: translateX(-60px);
+    opacity: 0.6;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.hobby__card {
+  background: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 220px; /* same size */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hobby__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.hobby__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: 0.75rem;
+  color: var(--title-color); /* ✅ now correct */
+}
+
+.hobby__quote {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.carousel__btn {
+  background: var(--first-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.carousel__btn:hover {
+  background: hsl(353, 93%, 60%);
+  transform: scale(1.1);
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1024px) {
+  .carousel__track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel__track {
+    grid-template-columns: 1fr;
+  }
+  .hobby__card {
+    height: auto;
+  }
+}

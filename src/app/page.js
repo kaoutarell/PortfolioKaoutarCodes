@@ -8,6 +8,7 @@ import Portfolio from "@/components/portfolio/Portfolio";
 import Pricing from "@/components/pricing/Pricing";
 import Testimonials from "@/components/testimonials/Testimonials";
 import Blog from "@/components/blog/Blog";
+import Hobbies from "@/components/hobbies/Hobbies";
 
 export default function Page() {
   return (
@@ -20,8 +21,9 @@ export default function Page() {
         <Resume />
         <Portfolio />
         {/* <Pricing /> */}
-        <Testimonials />
-        <Blog />
+        {/* <Testimonials /> */}
+        <Hobbies />
+        {/* <Blog /> */}
         {/* <Contact /> */}
       </main>
     </>

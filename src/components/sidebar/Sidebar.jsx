@@ -63,20 +63,20 @@ const Sidebar = () => {
                 href="#portfolio"
                 className="nav__link"
               >
-                <i className="icon-layers"></i>
+                <i className="icon-drawer"></i>
               </Link>
             </li>
             <li className="nav__item">
               <Link
-                to="blog"
+                to="hobbies"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={900}
-                href="#blog"
+                href="#portfolio"
                 className="nav__link"
               >
-                <i className="icon-note"></i>
+                <i className="icon-picture"></i>
               </Link>
             </li>
           </ul>

@@ -87,7 +87,8 @@
 
 .timeline .icon-graduation,
 .timeline .icon-briefcase,
-.timeline .icon-badge {
+.timeline .icon-badge,
+.timeline .icon-star {
   position: absolute;
   left: -0.4375rem;
   top: 0;
