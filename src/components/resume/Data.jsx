@@ -17,7 +17,14 @@ const Data = [
     title: "Software Engineer Intern",
     subtitle: "Société Générale, Montréal",
     desc: "This internship was truly magical ✨ It pushed me beyond my knowledge and limits, and I discovered that I can actually thrive in large teams at major companies. I picked up new tools, real AGILE skills, YAML scripting, Docker magic, project delivery to production, and cloud migration... All while untangling the puzzles of legacy financial systems. 🧩",
-    techStack: ["docker", "kubernetes", "spring", "dotnet", "elasticsearch"],
+    techStack: [
+      "docker",
+      "kubernetes",
+      "spring",
+      "dotnet",
+      "elasticsearch",
+      "oracle",
+    ],
   },
   {
     id: 3,
@@ -57,7 +64,7 @@ const Data = [
     title: "BEng. Software Engineering",
     subtitle: "Concordia University",
     desc: "Four years of theory overload, coding mostly in Java and Python, with cameos by Clojure, Lisp, and Erlang. And yes, the big boss? Software design. ⚡",
-    techStack: ["spring", "python", "clojure", "erlang", "react"],
+    techStack: ["spring", "python", "clojure", "erlang", "react", "neo4j"],
   },
   {
     id: 7,

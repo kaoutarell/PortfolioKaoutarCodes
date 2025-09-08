@@ -155,6 +155,7 @@
 @media screen and (max-width: 480px) {
   .aside {
     padding: 0.8rem 1rem;
+    background-color: hsl(258, 60%, 98%);
   }
 
   .nav__logo img {
