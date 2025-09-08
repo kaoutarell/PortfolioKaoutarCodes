@@ -6,7 +6,8 @@ const Data = [
     year: "Jan.2021 - present",
     title: "Technical Support Specialist (part-time)",
     subtitle: "Vidéotron, Montréal",
-    desc: "My four-year journey here was full of learning—everything from networking fundamentals to ticketing, troubleshooting, and escalation. I discovered that I could solve problems I didn’t even know I was capable of... and survive the IT battlefield. 🛡️",
+    desc: "My four-year journey here was full of learning—everything from networking fundamentals to ticketing, troubleshooting, and escalation. I discovered that I could solve problems I didn't even know I was capable of... and survive the IT battlefield. 🛡️",
+    techStack: [],
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const Data = [
     title: "Software Engineer Intern",
     subtitle: "Société Générale, Montréal",
     desc: "This internship was truly magical ✨ It pushed me beyond my knowledge and limits, and I discovered that I can actually thrive in large teams at major companies. I picked up new tools, real AGILE skills, YAML scripting, Docker magic, project delivery to production, and cloud migration... All while untangling the puzzles of legacy financial systems. 🧩",
+    techStack: ["docker", "kubernetes", "spring", "dotnet", "elasticsearch"],
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const Data = [
     title: "Junior Software Developer",
     subtitle: "Premicesoft, Dollars-des-Ormeaux",
     desc: "This was my first official software development quest, the moment I truly stepped into the dev world. I started by debugging legacy apps, updating code, and documenting (aka. battling ancient code monsters). Then I leveled up, laying the foundation for a brand-new project: a mobile tracking system for snow removal companies. ❄️",
+    techStack: ["csharp", "dotnet", "javascript", "spring"],
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const Data = [
     title: "Front-End Developer Intern",
     subtitle: "Sponteous, HEC Montréal",
     desc: "Technically my second internship. It was a lighter experience, but still valuable to me... I built a map component for a travel agency that let users see their selected destinations connected on a single, integrated map. 🗺️📍",
+    techStack: ["react", "javascript", "angular"],
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ const Data = [
     title: "Customer Service (part-time student job)",
     subtitle: "Best Buy, Montréal",
     desc: "This was my first real dive into the wild world of work: exploring markets, revenue data, and customer conversations. Basically, I was leveling up and stepping out of my comfort zone. ⬆️",
+    techStack: [], // No tech stack for non-technical role
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const Data = [
     title: "BEng. Software Engineering",
     subtitle: "Concordia University",
     desc: "Four years of theory overload, coding mostly in Java and Python, with cameos by Clojure, Lisp, and Erlang. And yes, the big boss? Software design. ⚡",
+    techStack: ["spring", "python", "clojure", "erlang", "react"],
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ const Data = [
     title: "Technical College Degree (DEC)",
     subtitle: "Teccart Institute",
     desc: "Well, here I basically lived in code 😌. We covered : Python, C++, C#, Java, Kotlin, and my old buddy PHP. We even went full web-warrior mode with ASP, JS, React-Redux, and the whole toolbox. 🛠️",
+    techStack: ["python", "cplusplus", "csharp", "spring", "react", "php"],
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ const Data = [
     title: "Associate Degree in engineering sciences",
     subtitle: "Hassan II University - Mohammedia",
     desc: "Wild adventure through the realms of science: from taming data structures in C and wrestling databases queries, to decoding the mysteries of quantum physics and electromagnetics. (I even survived the chemical jungles of chemistry)",
+    techStack: ["C"], // No specific tech stack mentioned
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ const Data = [
     title: "Cybersecurity and WIL Program",
     subtitle: "ICTC-CTWIL",
     desc: "Cybersecurity . Information Security . Generative AI",
+    techStack: [],
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ const Data = [
     title: "AZ-900 : Azure Fundamentals",
     subtitle: "Microsoft",
     desc: "Cloud Computing . Cloud Security . Cloud Migration",
+    techStack: [],
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ const Data = [
     title: "Graphic Design Masterclass",
     subtitle: "Udemy",
     desc: "Mastered : Adobe Photoshop . Adobe Illustrator . Adobe InDesign",
+    techStack: [],
   },
 ];
 

@@ -22,6 +22,7 @@ const Resume = () => {
                   subtitle={val.subtitle}
                   year={val.year}
                   desc={val.desc}
+                  techStack={val.techStack}
                 />
               ) : null
             )}
@@ -38,6 +39,7 @@ const Resume = () => {
                   subtitle={val.subtitle}
                   year={val.year}
                   desc={val.desc}
+                  techStack={val.techStack}
                 />
               ) : null
             )}
@@ -56,6 +58,7 @@ const Resume = () => {
                 subtitle={val.subtitle}
                 year={val.year}
                 desc={val.desc}
+                techStack={val.techStack}
               />
             ) : null
           )}

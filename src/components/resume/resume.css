@@ -144,7 +144,62 @@
   font-size: var(--small-font-size);
   line-height: 1.6;
   color: var(--text-color);
-  margin: 0;
+  margin: 0 0 1rem 0;
+}
+
+/* Tech Stack Styles */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  align-items: center;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--container-color);
+  border: 1px solid rgba(var(--first-color-rgb), 0.2);
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.tech-item:hover {
+  background: rgba(var(--first-color-rgb), 0.1);
+  border-color: var(--first-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(var(--first-color-rgb), 0.2);
+}
+
+.tech-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(53%) sepia(15%) saturate(1000%)
+    hue-rotate(200deg);
+  transition: filter 0.3s ease;
+}
+
+.tech-item:hover .tech-icon {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(96%) saturate(1210%)
+    hue-rotate(225deg) brightness(98%) contrast(101%);
+}
+
+/* Dark mode adjustments for tech icons */
+[data-theme="dark"] .tech-icon {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(15%) saturate(200%)
+    hue-rotate(180deg);
+}
+
+[data-theme="dark"] .tech-item:hover .tech-icon {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(96%) saturate(1210%)
+    hue-rotate(225deg) brightness(120%) contrast(101%);
 }
 
 /* Tablet Styles */
@@ -182,6 +237,16 @@
 
   .timeline__title {
     font-size: var(--normal-font-size);
+  }
+
+  .tech-stack {
+    gap: 0.625rem;
+  }
+
+  .tech-item {
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.4rem;
   }
 }
 
@@ -246,6 +311,18 @@
   .timeline__text {
     font-size: var(--smaller-font-size);
     line-height: 1.5;
+    margin-bottom: 0.75rem;
+  }
+
+  .tech-stack {
+    gap: 0.5rem;
+  }
+
+  .tech-item {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.35rem;
+    border-radius: 6px;
   }
 }
 
@@ -303,6 +380,18 @@
   .timeline__text {
     font-size: var(--smaller-font-size);
     line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+
+  .tech-stack {
+    gap: 0.4rem;
+  }
+
+  .tech-item {
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 0.3rem;
+    border-radius: 5px;
   }
 }
 
@@ -332,6 +421,17 @@
 
   .timeline__title {
     font-size: var(--smaller-font-size);
+  }
+
+  .tech-stack {
+    gap: 0.3rem;
+  }
+
+  .tech-item {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.25rem;
+    border-radius: 4px;
   }
 }
 
@@ -367,5 +467,15 @@
     width: 1.5rem;
     height: 1.5rem;
     font-size: 0.9rem;
+  }
+
+  .tech-stack {
+    gap: 0.4rem;
+  }
+
+  .tech-item {
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 0.3rem;
   }
 }
