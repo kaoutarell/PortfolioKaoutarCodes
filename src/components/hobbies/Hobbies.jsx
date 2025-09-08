@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { useEffect } from "react";
 import "./hobbies.css";
 
 const hobbies = [
@@ -43,11 +44,27 @@ const Hobbies = () => {
     triggerAnimation("prev", (index - 1 + hobbies.length) % hobbies.length);
   };
 
-  const visibleHobbies = [
-    hobbies[index],
-    hobbies[(index + 1) % hobbies.length],
-    hobbies[(index + 2) % hobbies.length],
-  ];
+  const [cardsPerView, setCardsPerView] = useState(3);
+
+  useEffect(() => {
+    const updateCardsPerView = () => {
+      if (window.innerWidth < 768) {
+        setCardsPerView(1);
+      } else if (window.innerWidth < 1024) {
+        setCardsPerView(2);
+      } else {
+        setCardsPerView(3);
+      }
+    };
+
+    updateCardsPerView(); // on load
+    window.addEventListener("resize", updateCardsPerView); // on resize
+    return () => window.removeEventListener("resize", updateCardsPerView);
+  }, []);
+
+  const visibleHobbies = Array.from({ length: cardsPerView }).map((_, i) => {
+    return hobbies[(index + i) % hobbies.length];
+  });
 
   return (
     <section className="container section" id="hobbies">
