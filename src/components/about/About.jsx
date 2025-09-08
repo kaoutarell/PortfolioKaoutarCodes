@@ -18,7 +18,7 @@ const About = () => {
               full-time job in the background so consider this my
               “multithreading” aura. ⚡
             </p>
-            <a href="/kaoutars_resume.pdf" download className="btn">
+            <a href="/assets/kaoutars_resume.pdf" download className="btn">
               Download Resume <i className="icon-cloud-download"></i>
             </a>
           </div>
