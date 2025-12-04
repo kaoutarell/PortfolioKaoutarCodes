@@ -13,10 +13,13 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description ">
-              🛠️ These are basically the things I know how to do… but I’m
-              currently tanking 5 heavy school classes while running a kinda
-              full-time job in the background so consider this my
-              “multithreading” aura. ⚡
+              🛠️ These are basically the things I know how to do… While
+              currently managing an intensive academic workload alongside a near
+              full-time role, I have cultivated a strong{" "}
+              <span className="highlighted">
+                multitasking and high-performance mindset
+              </span>
+              ⚡️
             </p>
             <a href="/assets/kaoutars_resume.pdf" download className="btn">
               Download Resume <i className="icon-cloud-download"></i>
