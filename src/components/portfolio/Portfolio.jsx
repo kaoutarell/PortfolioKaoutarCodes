@@ -29,9 +29,6 @@ const Portfolio = () => {
         <span className="work__item" onClick={() => filterItem("Hackathons")}>
           Hackathons
         </span>
-        <span className="work__item" onClick={() => filterItem("Clients")}>
-          Clients
-        </span>
       </div>
 
       <div className="work__container grid">

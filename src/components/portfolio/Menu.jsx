@@ -15,7 +15,7 @@ const Menu = [
   },
   {
     id: 3,
-    image: "/assets/conucg.png",
+    image: "/assets/ConuUCG.png",
     title: "Mini Capstone: ConU CG",
     category: "School",
     link: "https://github.com/kaoutarell/Concordia_Campus_Guide",
@@ -35,11 +35,11 @@ const Menu = [
     link: "https://github.com/kaoutarell/Warzone_CPP",
   },
   {
-    id: 6,
-    image: "/assets/coqzone2.png",
-    title: "CoqZone: Digital Presence for a Snack Food Brand",
-    category: "Clients",
-    link: "https://coq-zone.vercel.app/",
+    id: 7,
+    image: "/assets/ScribePilot_icon.png",
+    title: "ScribePilot: Private Dev AI Assistant",
+    category: "School",
+    link: "https://github.com/kaoutarell/ScribePilot/",
   },
 ];
 export default Menu;

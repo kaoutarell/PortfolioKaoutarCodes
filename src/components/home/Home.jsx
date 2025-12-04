@@ -14,21 +14,21 @@ const Home = () => {
           graduating 🎓, fingers crossed 🤞🏻)
         </span>
         <p className="home__education">
-          Ambitious? <span className="highlighted">Definitely!</span> Passionate
-          about tech? <span className="highlighted">Always.</span> Inspiring
-          women in STEM? <span className="highlighted">That's my jam</span>.
+          Ambitious with purpose,{" "}
+          <span className="highlighted">driven by innovation</span>
+          and fueled by a constant pursuit of excellence. Passionate about
+          technology,
+          <span className="highlighted">committed to impact</span>, and
+          dedicated to amplifying the presence and power of women in STEM.
         </p>
         <p className="home__education">
-          I attend conferences and summits whenever my calendar and bank account{" "}
-          <span className="highlights_2">agree</span> to sponsor me. Outside the
-          tech world, I train in kung fu (yes, balance in life can literally
-          mean high kicks 🥋). Personality-wise? Think of me as funny but calm,
-          smart but occasionally clumsy (and yes, lazy Sundays are sacred 😴).
-        </p>
-        <p className="home__education">
-          I also <span className="highlights_2">love meeting new people</span>{" "}
-          and expanding my network 🌝 so if you've made it this far, let's
-          connect!
+          I prioritize growth through conferences and summits whenever timing
+          and budget
+          <span className="highlights_2"> cooperate</span>. Outside the digital
+          sphere, I am a kung fu student, because training balances discipline
+          with creativity. Calm in demeanor, sharp in thinking, naturally
+          humorous, and unapologetically respectful of rest—because recovery
+          fuels excellence.
         </p>
         <HeaderSocials />
         <ScrollDown />
